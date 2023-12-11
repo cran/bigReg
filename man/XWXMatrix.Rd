@@ -14,4 +14,3 @@ XWXMatrix(X, y)
 \description{
 Calculation of iterative regression components
 }
-

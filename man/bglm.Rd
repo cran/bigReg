@@ -4,8 +4,17 @@
 \alias{bglm}
 \title{Function to carry out generalized linear regression on a data_frame data object}
 \usage{
-bglm(formula, family = gaussian_(), data, weights = NULL, offset = NULL,
-  start = NULL, control = list(), etastart = NULL, mustart = NULL)
+bglm(
+  formula,
+  family = gaussian_(),
+  data,
+  weights = NULL,
+  offset = NULL,
+  start = NULL,
+  control = list(),
+  etastart = NULL,
+  mustart = NULL
+)
 }
 \arguments{
 \item{formula}{formula that defines your regression model}
@@ -34,9 +43,10 @@ Function to carry out generalized linear regression on a data_frame data object
 \examples{
 require(parallel)
 data("plasma", package = "bigReg")
+data_dir = tempdir()
 plasma1 <- plasma
-plasma1 <- data_frame(plasma1, 10, path = "outputs", nCores = 1)
+plasma1 <- data_frame(plasma1, 10, path = data_dir, nCores = 1)
 plasma_glm <- bglm(ESR ~ fibrinogen + globulin, data = plasma1, family = binomial_("logit"))
 summary(plasma_glm)
-}
 
+}

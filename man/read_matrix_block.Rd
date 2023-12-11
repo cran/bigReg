@@ -16,4 +16,3 @@ read_matrix_block(filePath, size, ncol)
 \description{
 read matrix block from file
 }
-

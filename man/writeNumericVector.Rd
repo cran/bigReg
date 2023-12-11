@@ -14,4 +14,3 @@ writeNumericVector(v, filePath)
 \description{
 writes numeric vector to file
 }
-

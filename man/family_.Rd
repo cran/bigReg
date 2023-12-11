@@ -15,4 +15,3 @@ family_(distr, link)
 \description{
 family function
 }
-

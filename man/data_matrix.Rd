@@ -4,10 +4,13 @@
 \alias{data_matrix}
 \title{function to create a data_frame object}
 \usage{
-data_matrix(data = stop("data: matrix must be supplied"),
+data_matrix(
+  data = stop("data: matrix must be supplied"),
   chunkSize = stop("chunkSize must be specified, a good number is 50000"),
-  path = stop("path must be specified"), nCores = parallel::detectCores(),
-  ...)
+  path = stop("path must be specified"),
+  nCores = parallel::detectCores(),
+  ...
+)
 }
 \arguments{
 \item{data}{object to be converted into a data_matrix object}
@@ -30,4 +33,3 @@ function to create a data_matrix object. The data_matrix object
 \details{
 Creates a data_matrix object
 }
-

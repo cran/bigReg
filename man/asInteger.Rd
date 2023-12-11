@@ -12,4 +12,3 @@ asInteger(x)
 \description{
 converts numeric vector to integer
 }
-

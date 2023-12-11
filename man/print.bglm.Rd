@@ -16,4 +16,3 @@
 \description{
 print function for the bglm object
 }
-

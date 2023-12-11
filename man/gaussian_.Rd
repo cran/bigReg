@@ -12,4 +12,3 @@ gaussian_(link = "identity")
 \description{
 gaussian family function
 }
-

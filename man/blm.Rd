@@ -4,9 +4,13 @@
 \alias{blm}
 \title{Function to carry out linear regression on a data_frame data object}
 \usage{
-blm(formula = stop("formula: not supplied"),
-  data = stop("data: data not supplied"), control = list(),
-  weights = NULL, offset = NULL)
+blm(
+  formula = stop("formula: not supplied"),
+  data = stop("data: data not supplied"),
+  control = list(),
+  weights = NULL,
+  offset = NULL
+)
 }
 \arguments{
 \item{formula}{formula that defines your regression model}
@@ -22,4 +26,3 @@ blm(formula = stop("formula: not supplied"),
 \description{
 Function to carry out linear regression on a data_frame data object
 }
-

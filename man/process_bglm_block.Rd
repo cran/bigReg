@@ -4,8 +4,18 @@
 \alias{process_bglm_block}
 \title{Function to print the summary object from the blm object}
 \usage{
-process_bglm_block(mf, formula, mmCall, family, offset, weights, start, niter,
-  etastart, mustart)
+process_bglm_block(
+  mf,
+  formula,
+  mmCall,
+  family,
+  offset,
+  weights,
+  start,
+  niter,
+  etastart,
+  mustart
+)
 }
 \arguments{
 \item{mf}{the data block to be processed}
@@ -31,4 +41,3 @@ process_bglm_block(mf, formula, mmCall, family, offset, weights, start, niter,
 \description{
 Function to print the summary object from the blm object
 }
-

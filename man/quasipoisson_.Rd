@@ -12,4 +12,3 @@ quasipoisson_(link = "log")
 \description{
 quasipoisson family function
 }
-

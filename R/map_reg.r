@@ -36,13 +36,13 @@ blm <- function(formula = stop("formula: not supplied"), data = stop("data: data
 	weights <- substitute(weights)
 	offset <- substitute(offset)
   
-	if(class(weights) == "character")
+	if(is(weights, "character"))
 	{
 		weights <- as.call(parse(text = weights))
 		weights <- as.list(weights)[[1]]
 	}
   
-	if(class(offset) == "character")
+	if(is(offset, "character"))
 	{
 		offset <- as.call(parse(text = offset))
 		offset <- as.list(offset)[[1]]
@@ -354,10 +354,12 @@ sum_bglm_block <- function(x1, x2){
 #' @examples
 #' require(parallel)
 #' data("plasma", package = "bigReg")
+#' data_dir = tempdir()
 #' plasma1 <- plasma
-#' plasma1 <- data_frame(plasma1, 10, path = "outputs", nCores = 1)
+#' plasma1 <- data_frame(plasma1, 10, path = data_dir, nCores = 1)
 #' plasma_glm <- bglm(ESR ~ fibrinogen + globulin, data = plasma1, family = binomial_("logit"))
 #' summary(plasma_glm)
+#' 
 #' @export
 bglm <- function(formula, family = gaussian_(), data, weights = NULL, offset = NULL, 
                  start = NULL, control = list(), etastart = NULL, mustart = NULL)
@@ -367,13 +369,13 @@ bglm <- function(formula, family = gaussian_(), data, weights = NULL, offset = N
   weights <- substitute(weights)
   offset <- substitute(offset)
   
-  if(class(weights) == "character")
+  if(is(weights, "character"))
   {
     weights <- as.call(parse(text = weights))
     weights <- as.list(weights)[[1]]
   }
   
-  if(class(offset) == "character")
+  if(is(offset, "character"))
   {
     offset <- as.call(parse(text = offset))
     offset <- as.list(offset)[[1]]

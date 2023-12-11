@@ -14,4 +14,3 @@
 \description{
 summary function for the blm object
 }
-

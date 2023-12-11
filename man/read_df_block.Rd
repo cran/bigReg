@@ -22,4 +22,3 @@ read_df_block(size, filePath, df, ncol, factors, factor_indices)
 \description{
 read data frame block from file
 }
-

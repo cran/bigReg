@@ -12,4 +12,3 @@ quasibinomial_(link = "logit")
 \description{
 quasibinomial family function
 }
-

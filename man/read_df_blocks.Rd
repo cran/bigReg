@@ -22,4 +22,3 @@ read_df_blocks(size, filePaths, df, ncols, factors, factor_indices)
 \description{
 read multiple blocks of data frames from file
 }
-

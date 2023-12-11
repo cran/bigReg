@@ -12,4 +12,3 @@ load_data_matrix(path = stop("path: to data_matrix folder must be supplied"))
 \description{
 function to load data_frame object
 }
-

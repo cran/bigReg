@@ -12,4 +12,3 @@ poisson_(link = "log")
 \description{
 poisson family function
 }
-

@@ -4,7 +4,9 @@
 \name{plasma}
 \alias{plasma}
 \title{plasma data from the HSAUR package}
-\format{a data.frame}
+\format{
+a data.frame
+}
 \source{
 \href{https://cran.r-project.org/package=HSAUR}{HSAUR package}
 }
@@ -26,4 +28,3 @@ HSAUR R package
 (\href{https://cran.r-project.org/package=HSAUR}{HSAUR package})
 }
 \keyword{datasets}
-

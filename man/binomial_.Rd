@@ -12,4 +12,3 @@ binomial_(link = "logit")
 \description{
 binomial family function
 }
-

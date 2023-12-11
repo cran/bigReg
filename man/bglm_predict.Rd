@@ -4,9 +4,11 @@
 \alias{bglm_predict}
 \title{predict function for bglm object}
 \usage{
-bglm_predict(mf = stop("mf: model frame must be supplied"),
+bglm_predict(
+  mf = stop("mf: model frame must be supplied"),
   object = stop("object: bglm object must be supplied"),
-  type = stop("type: either \\"link\\", \\"response\\", \\"terms\\""))
+  type = stop("type: either \\"link\\", \\"response\\", \\"terms\\"")
+)
 }
 \arguments{
 \item{mf}{model frame}
@@ -18,4 +20,3 @@ bglm_predict(mf = stop("mf: model frame must be supplied"),
 \description{
 predict function for bglm object
 }
-

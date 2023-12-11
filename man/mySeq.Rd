@@ -14,4 +14,3 @@ mySeq(start, end)
 \description{
 a function to create a sequence of integers
 }
-

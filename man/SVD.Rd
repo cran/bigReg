@@ -14,4 +14,3 @@ SVD(out, epsilon)
 \description{
 Singular value decomposition of the aggregated list from XWXMatrix(W) functions
 }
-

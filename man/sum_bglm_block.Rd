@@ -14,4 +14,3 @@ sum_bglm_block(x1, x2)
 \description{
 The reduction function for the algorithm
 }
-

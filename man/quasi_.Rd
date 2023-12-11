@@ -14,4 +14,3 @@ quasi_(link = "identity", variance = "constant")
 \description{
 quasi family function
 }
-

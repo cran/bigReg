@@ -14,4 +14,3 @@ r_bind(x, y)
 \description{
 row binding for benchmarking
 }
-

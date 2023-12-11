@@ -15,4 +15,3 @@ CreateFactor(x, levels)
 The \code{CreateFactor} function creates a factor from a numeric 
 				vector and a character vector for levels
 }
-

@@ -12,4 +12,3 @@ inverse.gaussian_(link = "1/mu^2")
 \description{
 inverse.gaussian family function
 }
-

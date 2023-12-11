@@ -12,4 +12,3 @@ Gamma_(link = "inverse")
 \description{
 Gamma family function
 }
-

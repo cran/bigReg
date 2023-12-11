@@ -12,4 +12,3 @@ load_data_frame(path = stop("path: to data_frame folder must be supplied"))
 \description{
 function to load data_frame object
 }
-

@@ -4,8 +4,12 @@
 \alias{print.summary.bglm}
 \title{Function to print the summary object from the bglm object}
 \usage{
-\method{print}{summary.bglm}(x, digits = max(3L, getOption("digits") - 3L),
-  signif.stars = getOption("show.signif.stars"), ...)
+\method{print}{summary.bglm}(
+  x,
+  digits = max(3L, getOption("digits") - 3L),
+  signif.stars = getOption("show.signif.stars"),
+  ...
+)
 }
 \arguments{
 \item{x}{summary blm object}
@@ -19,4 +23,3 @@
 \description{
 Function to print the summary object from the bglm object
 }
-

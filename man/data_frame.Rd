@@ -4,10 +4,13 @@
 \alias{data_frame}
 \title{function to create a data_frame object}
 \usage{
-data_frame(data = stop("data must be supplied"),
+data_frame(
+  data = stop("data must be supplied"),
   chunkSize = stop("chunkSize must be specified, a good number is 50000"),
-  path = stop("path must be specified"), nCores = parallel::detectCores(),
-  ...)
+  path = stop("path must be specified"),
+  nCores = parallel::detectCores(),
+  ...
+)
 }
 \arguments{
 \item{data}{data.frame object to be converted into a data_frame object}
@@ -39,4 +42,3 @@ irisA$head()
 irisA$tail(10)
 irisA$delete(); rm(irisA)
 }
-

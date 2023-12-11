@@ -14,4 +14,3 @@ readNumericVector(size, filePath)
 \description{
 reads numeric vector to file
 }
-
